@@ -25,10 +25,18 @@ SVRS is trained and evaluated using [DrivingStereo](https://drivingstereo-datase
 We provide the generated Ground Truth and checkpoints described in this paper.[https://pan.baidu.com/s/1jOjmO3d6xDitgQdMvzlNNA, Extraction Code(yxw2)]
 
 ## Evaluation
-**Note:** You need to first download the link we provided and extract the relevant files.
+The evaluation metrics are shown in the ".xls" file.
 
+
+**Note:** If you want to reproduce the ".xls" file, you need to first download the link we provided and extract the relevant files.
+
+Evaluation based on the stereo matching method
 ```
 python evaluate-PLiDar.py
+```
+Evaluation based on the SVRS
+```
+python SVRS/evaluate.py
 ```
 
 
