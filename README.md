@@ -16,6 +16,22 @@ The code is tested on following libraries. Libraries with other versions might a
 * PyTorch 1.11.0
 * CUDA 11.7
 
+## Dataset
+
+### DrivingStereo
+SVRS is trained and evaluated using [DrivingStereo](https://drivingstereo-dataset.github.io/) dataset. Please make sure to download their training and testing data and extract to any folder you prefer.
+
+### Our Experiment
+We provide the generated Ground Truth and checkpoints described in this paper.[https://pan.baidu.com/s/1jOjmO3d6xDitgQdMvzlNNA, Extraction Code(yxw2)]
+
+## Evaluation
+**Note:** You need to first download the link we provided and extract the relevant files.
+
+```
+python evaluate-PLiDar.py
+```
+
+
 ```
 
 # Acknowledgements
