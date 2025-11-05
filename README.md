@@ -1,6 +1,6 @@
 # SVRS
 
-![visualization2](OverAll.png)
+![visualization2](Fig1.pdf)
 
 ##  🌼 Abstract
 Three-dimensional voxel reconstruction based on stereo vision is essential for environmental perception in autonomous robots. Existing pseudo-LiDAR methods recover voxel grids by estimating depth maps and projecting them pixel by pixel, leading to high computational cost and boundary over-smoothing. To overcome these issues, we model the inverse relationship between 2D pixels and 3D voxel grids and propose a Self-supervised 3D Voxel Reconstruction network from Stereo vision (SVRS). Specifically, we represent a given 3D scene as multi-scale uniform cubic voxel grids and introduce. PVPM projects the 3D position of each voxel grids into index coordinates, which establishes implicit stereo–voxel correspondences and converts dense pixel features into sparse voxel representations. Furthermore, we explore an Octree-based Encoder-Decoder Architecture (OEDA) to reconstruct multi-scale voxel grids via hierarchical spatial partitioning, avoiding the influence of dense empty grids on sparse occupied grids from coarse-to-fine. Finally, SVRS leverages off-the-shelf stereo matching methods within a self-supervised training framework. Experiments on the DrivingStereo dataset show that SVRS achieves competitive reconstruction accuracy while improving inference speed by up to 14× over advanced pseudo-LiDAR approaches and 3× over real-time stereo methods.
