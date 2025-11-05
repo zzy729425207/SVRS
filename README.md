@@ -9,33 +9,15 @@ Three-dimensional voxel reconstruction based on stereo vision is essential for e
 ![visualization2](Fig3.png)
 
 ## ⚙️ Installation
-* NVIDIA RTX 1080Ti
-* python 3.8
+The code is tested on following libraries. Libraries with other versions might also work, but not guaranteed:
 
-### ⏳ Create a virtual environment and activate it.
-
-```Shell
-conda create -n monster python=3.8
-conda activate monster
-```
-### 🎬 Dependencies
-
-```Shell
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
-pip install tqdm
-pip install scipy
-pip install opencv-python
-pip install scikit-image
-pip install tensorboard
-pip install matplotlib 
-pip install timm==0.6.13
-pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
-pip install accelerate==1.0.1
-pip install gradio_imageslider
-pip install gradio==4.29.0
+* Ubuntu 20.04
+* Python 3.8
+* PyTorch 1.11.0
+* CUDA 11.7
 
 ```
 
 # Acknowledgements
 
-This project is based on [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [IGEV](https://github.com/gangweiX/IGEV), [Stereo Anywhere](https://github.com/bartn8/stereoanywhere), and [Monster](https://github.com/Junda24/MonSter).
+This project is based on [StereoVoxelNet](https://github.com/RIVeR-Lab/stereovoxelnet.git), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [IGEV](https://github.com/gangweiX/IGEV), and [Monster](https://github.com/Junda24/MonSter).
