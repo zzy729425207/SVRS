@@ -32,8 +32,7 @@ python evaluate-PLiDar.py
 ```
 
 
-```
-
 # Acknowledgements
 
+```
 This project is based on [StereoVoxelNet](https://github.com/RIVeR-Lab/stereovoxelnet.git), [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [IGEV](https://github.com/gangweiX/IGEV), and [Monster](https://github.com/Junda24/MonSter).
